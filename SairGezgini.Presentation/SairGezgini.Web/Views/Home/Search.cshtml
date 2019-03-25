@@ -1,0 +1,84 @@
+﻿@model SairGezgini.Models.SearchViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+
+<!------ Include the above in your HEAD tag ---------->
+<div class="search-item">
+    <div class="card-header">
+        <h4>@Model.Key.ToUpper() ile alakalı toplam @Model.Count sonuç bulundu.</h4>
+    </div>
+    <div class="gaadiex-list">
+
+        @{
+            foreach (var res in Model.SearchModels)
+            {
+                <div class="gaadiex-list-item">
+                    <h3><a href="@res.Url">@res.PoemName</a></h3>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+
+<style>
+    /********card frame **************/
+    .search-item {
+        position: relative;
+        border-radius: 3px;
+        background-color: #fff;
+        color: #4f5256;
+        border: 1px solid #f2f2f2;
+        margin-bottom: 16px;
+        background: #fff;
+    }
+
+    .search-item-header {
+        padding: 16px;
+        margin: 0px;
+    }
+
+    .search-item-body {
+        position: relative;
+        padding: 16px;
+    }
+
+    .gaadiex-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .gaadiex-list > .gaadiex-list-item {
+            padding: 0 22px;
+        }
+
+    .gaadiex-list-item-img {
+        float: left;
+        width: 58px;
+        height: 58px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .gaadiex-list-item i {
+        float: left;
+        font-size: 48px;
+        width: 58px;
+        height: 58px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .border-b-1 {
+        border-bottom: 1px solid rgba(162,162,162,.16);
+    }
+</style>

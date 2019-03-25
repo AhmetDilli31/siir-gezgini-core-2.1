@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>bfe3d015-d81b-4e01-9145-24d1c4ad4677</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\.DS_Store" />
+    <Content Remove="wwwroot\images\bookmarks\delicious.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\digg.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\facebook.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\index.html" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\delicious.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\digg.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\facebook.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\flickr.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\furl.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\readme.txt" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\reddit.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\rss.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\stumbleupon.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\technorati.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\twitter.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\yahoo.png" />
+    <Content Remove="wwwroot\images\bookmarks\Original DryIcons\youtube.png" />
+    <Content Remove="wwwroot\images\bookmarks\reddit.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\rss.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\stumbleupon.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\twitter.jpg" />
+    <Content Remove="wwwroot\images\bookmarks\yahoo.jpg" />
+    <Content Remove="wwwroot\images\demo\230x100.gif" />
+    <Content Remove="wwwroot\images\demo\286x100.gif" />
+    <Content Remove="wwwroot\images\demo\64x64.gif" />
+    <Content Remove="wwwroot\images\demo\avatar.gif" />
+    <Content Remove="wwwroot\images\demo\imgl.gif" />
+    <Content Remove="wwwroot\images\demo\imgr.gif" />
+    <Content Remove="wwwroot\images\demo\index.html" />
+    <Content Remove="wwwroot\images\index.html" />
+    <Content Remove="wwwroot\layout\index.html" />
+    <Content Remove="wwwroot\layout\styles\forms.css" />
+    <Content Remove="wwwroot\layout\styles\homepage.css" />
+    <Content Remove="wwwroot\layout\styles\index.html" />
+    <Content Remove="wwwroot\layout\styles\layout.css" />
+    <Content Remove="wwwroot\layout\styles\navi.css" />
+    <Content Remove="wwwroot\layout\styles\tables.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\EasyAutocomplete\jquery.easy-autocomplete.js" />
+    <None Include="wwwroot\EasyAutocomplete\jquery.easy-autocomplete.min.js" />
+    <None Include="wwwroot\EasyAutocomplete\maps\easy-autocomplete.css.map" />
+    <None Include="wwwroot\EasyAutocomplete\maps\easy-autocomplete.min.css.map" />
+    <None Include="wwwroot\EasyAutocomplete\maps\easy-autocomplete.themes.css.map" />
+    <None Include="wwwroot\EasyAutocomplete\maps\easy-autocomplete.themes.min.css.map" />
+    <None Include="wwwroot\images\.DS_Store" />
+    <None Include="wwwroot\images\bookmarks\delicious.jpg" />
+    <None Include="wwwroot\images\bookmarks\digg.jpg" />
+    <None Include="wwwroot\images\bookmarks\facebook.jpg" />
+    <None Include="wwwroot\images\bookmarks\index.html" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\delicious.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\digg.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\facebook.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\flickr.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\furl.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\readme.txt" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\reddit.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\rss.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\stumbleupon.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\technorati.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\twitter.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\yahoo.png" />
+    <None Include="wwwroot\images\bookmarks\Original DryIcons\youtube.png" />
+    <None Include="wwwroot\images\bookmarks\reddit.jpg" />
+    <None Include="wwwroot\images\bookmarks\rss.jpg" />
+    <None Include="wwwroot\images\bookmarks\stumbleupon.jpg" />
+    <None Include="wwwroot\images\bookmarks\twitter.jpg" />
+    <None Include="wwwroot\images\bookmarks\yahoo.jpg" />
+    <None Include="wwwroot\images\demo\230x100.gif" />
+    <None Include="wwwroot\images\demo\286x100.gif" />
+    <None Include="wwwroot\images\demo\64x64.gif" />
+    <None Include="wwwroot\images\demo\avatar.gif" />
+    <None Include="wwwroot\images\demo\imgl.gif" />
+    <None Include="wwwroot\images\demo\imgr.gif" />
+    <None Include="wwwroot\images\demo\index.html" />
+    <None Include="wwwroot\images\index.html" />
+    <None Include="wwwroot\layout\index.html" />
+    <None Include="wwwroot\layout\styles\forms.css" />
+    <None Include="wwwroot\layout\styles\homepage.css" />
+    <None Include="wwwroot\layout\styles\index.html" />
+    <None Include="wwwroot\layout\styles\layout.css" />
+    <None Include="wwwroot\layout\styles\navi.css" />
+    <None Include="wwwroot\layout\styles\tables.css" />
+    <None Include="wwwroot\Sayfalar\sairler\BaseTemplate\poet.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SiirGezgini.Business\SiirGezgini.Business.csproj" />
+    <ProjectReference Include="..\..\SiirGezgini.Shared\SiirGezgini.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

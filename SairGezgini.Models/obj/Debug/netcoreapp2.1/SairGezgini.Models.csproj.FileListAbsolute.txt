@@ -1,0 +1,16 @@
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\bin\Debug\netcoreapp2.1\SairGezgini.Models.deps.json
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\bin\Debug\netcoreapp2.1\SairGezgini.Models.dll
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\bin\Debug\netcoreapp2.1\SairGezgini.Models.pdb
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.csproj.CoreCompileInputs.cache
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.AssemblyInfoInputs.cache
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.AssemblyInfo.cs
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.dll
+C:\Users\htayfur\Documents\Specials\Projects\SiirGezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.pdb
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\bin\Debug\netcoreapp2.1\SairGezgini.Models.deps.json
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\bin\Debug\netcoreapp2.1\SairGezgini.Models.dll
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\bin\Debug\netcoreapp2.1\SairGezgini.Models.pdb
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.csproj.CoreCompileInputs.cache
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.AssemblyInfoInputs.cache
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.AssemblyInfo.cs
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.dll
+C:\Users\htayfur\Documents\Specials\Projects\Siir-Gezgini\SairGezgini.Models\obj\Debug\netcoreapp2.1\SairGezgini.Models.pdb

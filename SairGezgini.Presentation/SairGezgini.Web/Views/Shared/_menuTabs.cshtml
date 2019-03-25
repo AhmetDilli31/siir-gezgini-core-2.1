@@ -1,0 +1,18 @@
+﻿@using SiirGezgini.Shared.Constants
+<link href="~/css/menuTabs.css" rel="stylesheet" />
+<main>
+
+
+    <section id="content1">
+        <ul style="list-style-type: circle;    margin-top: 20px;">
+            @{
+                foreach (var letter in Alphabet.TurkishAlphabets)
+                {
+                    <li>@letter Harfi ile Başlayan Şairler </li>
+                }
+            }
+
+        </ul>
+    </section>
+
+</main>

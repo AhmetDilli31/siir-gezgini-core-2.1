@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiirGezgini.Repository", "SiirGezgini.Services\SiirGezgini.Repository.csproj", "{542B70DD-8473-4B2F-9BE7-8E0AEF5905D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiirGezgini.Business", "SiirGezgini.Business\SiirGezgini.Business.csproj", "{1FA0E79C-209E-44D4-B363-20A25607307A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiirGezgini.Shared", "SiirGezgini.Shared\SiirGezgini.Shared.csproj", "{C0570F48-B973-4D16-B7A2-FB3CB358631C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiirGezgini.Models", "SairGezgini.Models\SiirGezgini.Models.csproj", "{0FBC252E-7B4E-4B5C-98B0-05DE78D3E1D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiirGezgini.Core", "SairGezgini.Core\SiirGezgini.Core.csproj", "{A4428E78-83B0-4425-88DE-54609FACC458}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SairGezgini.Presentation", "SairGezgini.Presentation", "{ED1AE405-1F78-4568-A722-1E6B5BBFCFFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SairGezgini.Web", "SairGezgini.Presentation\SairGezgini.Web\SairGezgini.Web.csproj", "{1D50C187-6B7F-4135-BB4A-F1D573A758B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542B70DD-8473-4B2F-9BE7-8E0AEF5905D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542B70DD-8473-4B2F-9BE7-8E0AEF5905D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542B70DD-8473-4B2F-9BE7-8E0AEF5905D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542B70DD-8473-4B2F-9BE7-8E0AEF5905D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA0E79C-209E-44D4-B363-20A25607307A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA0E79C-209E-44D4-B363-20A25607307A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA0E79C-209E-44D4-B363-20A25607307A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA0E79C-209E-44D4-B363-20A25607307A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0570F48-B973-4D16-B7A2-FB3CB358631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0570F48-B973-4D16-B7A2-FB3CB358631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0570F48-B973-4D16-B7A2-FB3CB358631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0570F48-B973-4D16-B7A2-FB3CB358631C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBC252E-7B4E-4B5C-98B0-05DE78D3E1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBC252E-7B4E-4B5C-98B0-05DE78D3E1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBC252E-7B4E-4B5C-98B0-05DE78D3E1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBC252E-7B4E-4B5C-98B0-05DE78D3E1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4428E78-83B0-4425-88DE-54609FACC458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4428E78-83B0-4425-88DE-54609FACC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4428E78-83B0-4425-88DE-54609FACC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4428E78-83B0-4425-88DE-54609FACC458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D50C187-6B7F-4135-BB4A-F1D573A758B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D50C187-6B7F-4135-BB4A-F1D573A758B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D50C187-6B7F-4135-BB4A-F1D573A758B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D50C187-6B7F-4135-BB4A-F1D573A758B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D50C187-6B7F-4135-BB4A-F1D573A758B8} = {ED1AE405-1F78-4568-A722-1E6B5BBFCFFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C81AD342-09AF-49C3-A0FA-E63B26BCB020}
+	EndGlobalSection
+EndGlobal

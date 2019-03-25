@@ -1,0 +1,55 @@
+﻿.poem {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+pre {
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #666666;
+    background-color: #FFFFFF;
+    line-height: 2em;
+}
+
+.poem h1 {
+    padding-top: 65px;
+    font-size: 23px;
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.poet-name {
+    margin: 0px 0 15px 0;
+    padding: 8px 0 8px 0;
+    line-height: normal;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-top: 1px dashed #CCCCCC;
+    border-bottom: none;
+}
+
+.button3 {
+    border-radius: 8px;
+    background-color: #f44336;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.total-poet {
+    padding-bottom: 10px;
+}
+.total-poet-count {
+    color: #f44336;
+    font-size: 13px;
+    font-weight: bold;
+}

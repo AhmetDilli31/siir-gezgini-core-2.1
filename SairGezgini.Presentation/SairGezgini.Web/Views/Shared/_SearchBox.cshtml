@@ -1,0 +1,121 @@
+﻿@using SiirGezgini.Shared.Constants
+<script src="~/js/search.js"></script>
+
+<style>
+    .button3 {
+        border-radius: 8px;
+        background-color: #f44336;
+        padding: 10px;
+        border: none;
+        color: white;
+        font-size: 13px;
+    }
+</style>
+
+
+
+<div class="row">
+    <div class="col-lg">
+
+        <div class="col-md">
+            <div class="w3-row">
+                <a href="javascript:void(0)" onclick="openTab(event, 'Search', false);">
+                    <div id="init-tab" href="javascript:void(0)"
+                         class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+                        Gezgin
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="openTab(event, 'Sair', false);">
+                    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">
+                        Şair
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="openTab(event, 'Siir', false);">
+                    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Şiir</div>
+                </a>
+            </div>
+
+            <div id="Search" class="w3-container tab" style="display: none">
+                <div class="search-box">
+                    <div class="container">
+                        <br />
+                        <div style="width: 100%">
+                            <div style="width: 100%">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body" style="padding-right: 5px;"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input name="key" id="txt-search" autocomplete="off" autofocus onkeypress="keyPressListener(event)"
+                                               class="form-control form-control-lg form-control-borderless" type="text"
+                                               placeholder="Şiir veya şair araması için anahtar kelime girin" />
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto" style="padding-left: 12px;">
+                                        <button onclick="search()" class="btn btn-lg btn-success"
+                                                style="background-color: #f44336;color:white">
+                                            Ara
+                                        </button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </div>
+                            <!--end of col-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="Sair" class="w3-container tab" style="display: none; margin-top: 22px">
+
+                <div class="card-body row no-gutters align-items-center">
+                    <div class="col-auto">
+                        <ul class="list-inline">
+                            @{
+                                for (int i = 0; i < Alphabet.TurkishAlphabets.Count - 6; i++)
+                                {
+                                    var alp = Alphabet.TurkishAlphabets[i];
+
+                                    <li class="list-inline-item" style="margin-right: 4px;">
+                                        <button class="button button3"
+                                                onclick="window.location.href='/Sayfalar/sairler/@alp.ToString().ToLower()-harfi-ile-baslayan-sairler.html'">
+                                            @alp
+                                        </button>
+                                    </li>
+                                }
+                            }
+                        </ul>
+
+                        <ul class="list-inline" style="margin: auto;width: 33%">
+                            @{
+                                for (int i = Alphabet.TurkishAlphabets.Count - 6; i < Alphabet.TurkishAlphabets.Count; i++)
+                                {
+                                    var alp = Alphabet.TurkishAlphabets[i];
+
+                                    <li class="list-inline-item" style="margin-right: 4px;">
+                                        <button class="button button3"
+                                                onclick="window.location.href='/Sayfalar/sairler/@alp.ToString().ToLower()-harfi-ile-baslayan-sairler.html'">
+                                            @alp
+                                        </button>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <!--end of col-->
+
+                </div>
+
+
+                <hr />
+            </div>
+
+            <div id="Siir" class="w3-container tab" style="display: none">
+              
+            </div>
+                <hr />
+        </div>
+    </div>
+</div>
